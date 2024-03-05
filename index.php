@@ -1,9 +1,10 @@
 <?php
-
+#Задание 1
 if(isset($_GET['info'])){
     $info = $_GET['info'];
     echo $info;
 }
+#Задание 2
 elseif (isset($_GET['num'])) {
     $num = $_GET['num'];
     if($num > 1000){
